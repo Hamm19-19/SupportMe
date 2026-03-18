@@ -107,6 +107,9 @@
   .milestone-bar { height: 100%; border-radius: 100px; background: linear-gradient(90deg, #CC0000, #FF4444, #FF8888); transition: width 1s ease; box-shadow: 0 0 8px rgba(255,68,68,0.5); }
   .milestone-amounts { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-muted); font-family: monospace; }
   .milestone-amounts .filled { color: #FF6666; font-weight: 700; }
+  .milestone-rewards { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .milestone-reward-tag { display: inline-flex; align-items: center; gap: 5px; background: rgba(255,68,68,0.12); border: 1px solid rgba(255,68,68,0.3); border-radius: 6px; padding: 4px 10px; font-size: 11px; font-weight: 800; color: #fff; letter-spacing: 0.04em; }
+  .milestone-reward-tag .tag-plus { color: var(--roblox-red); font-size: 12px; }
 </style>
 </head>
 <body>
@@ -148,6 +151,10 @@
       <div class="milestone-amounts">
         <span class="filled">Rp90,500 raised</span>
         <span>Goal: Rp500,000</span>
+      </div>
+      <div class="milestone-rewards">
+        <span class="milestone-reward-tag"><span class="tag-plus">+</span>12 New Pets</span>
+        <span class="milestone-reward-tag"><span class="tag-plus">+</span>3 New Eggs</span>
       </div>
     </div>
     <p class="support-label">Support Payment</p>
